@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970b2addab57842cf96478ae1402e3d5, type: 3}
+  m_Name: Shotgun Spread
+  m_EditorClassIdentifier: 
+  properties:
+  - actionState: 0
+    minBulletSpread: -0.5
+    maxBulletSpread: 0.5
+    shakeProperties:
+      target: 2
+      amplitude: 10
+      frequency: 5
+      duration: 0.5
+      blendOverLifetime:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: -0.008602142
+          value: 0.5001831
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - actionState: 1
+    minBulletSpread: -1
+    maxBulletSpread: 1
+    shakeProperties:
+      target: 2
+      amplitude: 10
+      frequency: 5
+      duration: 0.5
+      blendOverLifetime:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: -0.008602142
+          value: 0.5001831
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - actionState: 2
+    minBulletSpread: -2
+    maxBulletSpread: 2
+    shakeProperties:
+      target: 2
+      amplitude: 10
+      frequency: 5
+      duration: 0.5
+      blendOverLifetime:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: -0.008602142
+          value: 0.5001831
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - actionState: 6
+    minBulletSpread: -0.25
+    maxBulletSpread: 0.25
+    shakeProperties:
+      target: 2
+      amplitude: 5
+      frequency: 2.5
+      duration: 0.5
+      blendOverLifetime:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: -0.008602142
+          value: 0.5001831
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - actionState: 4
+    minBulletSpread: -0.35
+    maxBulletSpread: 0.35
+    shakeProperties:
+      target: 2
+      amplitude: 7.5
+      frequency: 3.5
+      duration: 0.5
+      blendOverLifetime:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: -0.008602142
+          value: 0.5001831
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0

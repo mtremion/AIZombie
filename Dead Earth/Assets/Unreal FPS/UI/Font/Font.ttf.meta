@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7bc2e6b03c6664053b69b416736fb0dc
+timeCreated: 1500991380
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Octin College
+  fontNames:
+  - Octin College
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c5ec36826c2a44eac1b224e03733ea, type: 3}
+  m_Name: Sniper Rfile [ID]
+  m_EditorClassIdentifier: 
+  id: 7C01614DD2304988ADE7510205830DB1
+  displayName: Sniper Rifle
+  description: 
+  group: Rifles
+  image: {fileID: 21300034, guid: 6674e8c43c63e4f4184cbd009379498d, type: 3}
+  dropProperties:
+    dropObject: {fileID: 7962294861280472337, guid: 1738ccf19a1f64324adbb637e51d9f7c,
+      type: 3}
+    force: 0.5
+    soundEffect: {fileID: 8300000, guid: ac467de1b92dfa24fb45438c714ad5f4, type: 3}
+    distance: 0.5
+    rotation: {x: 0, y: 0, z: 0}

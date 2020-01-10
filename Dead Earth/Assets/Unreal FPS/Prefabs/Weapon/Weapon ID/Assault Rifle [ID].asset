@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c5ec36826c2a44eac1b224e03733ea, type: 3}
+  m_Name: Assault Rifle [ID]
+  m_EditorClassIdentifier: 
+  id: F5521D6FE4814A4B84A3CE3A7ED40488
+  displayName: Rifle
+  description: 
+  group: Rifles
+  image: {fileID: 21300046, guid: 6674e8c43c63e4f4184cbd009379498d, type: 3}
+  dropProperties:
+    dropObject: {fileID: 285864682099490366, guid: 5b142573005704890bbfa656f7c66d8b,
+      type: 3}
+    force: 0.5
+    soundEffect: {fileID: 8300000, guid: 3240e06a294389f4780132974ee81c77, type: 3}
+    distance: 1
+    rotation: {x: 0, y: 270, z: 0}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c5ec36826c2a44eac1b224e03733ea, type: 3}
+  m_Name: Machine Gun [ID]
+  m_EditorClassIdentifier: 
+  id: 278FF4C69C04454BB91CDCC095BC2E14
+  displayName: Machine Gun
+  description: 
+  group: Rifles
+  image: {fileID: 21300040, guid: 6674e8c43c63e4f4184cbd009379498d, type: 3}
+  dropProperties:
+    dropObject: {fileID: 6762542926560088301, guid: 7718bc6d882954b2eaf92d136712936b,
+      type: 3}
+    force: 1
+    soundEffect: {fileID: 8300000, guid: d4c43cc4b7871ec41913aa50e475765b, type: 3}
+    distance: 0.5
+    rotation: {x: 0, y: 180, z: 0}

@@ -1,0 +1,431 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c58bc73e0b89b74db7315357d0fdb19, type: 3}
+  m_Name: Machine Gun Animation Event Properties
+  m_EditorClassIdentifier: 
+  properties:
+  - animationName: Select
+    eventProperties:
+    - animationTime: 0.01
+      soundEffect: {fileID: 8300000, guid: a92d3ccc1ab68e24fb3c0b74fb4def1d, type: 3}
+      shakeProperties:
+        target: 2
+        amplitude: 3
+        frequency: 1
+        duration: 0.5
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.0051724133
+            value: -0.0017543855
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 136
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.49482754
+            value: 0.996491
+            inSlope: -0.57815
+            outSlope: -0.57815
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.3666668
+          - serializedVersion: 3
+            time: 0.70172405
+            value: -0.0052631567
+            inSlope: -0.19484878
+            outSlope: -0.19484878
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.270115
+          - serializedVersion: 3
+            time: 1.001724
+            value: 0.49298236
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 136
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+  - animationName: Putaway
+    eventProperties:
+    - animationTime: 0
+      soundEffect: {fileID: 8300000, guid: d4c43cc4b7871ec41913aa50e475765b, type: 3}
+      shakeProperties:
+        target: 2
+        amplitude: 3
+        frequency: 1
+        duration: 0.5
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.0051724133
+            value: -0.0017543855
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 136
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.49482754
+            value: 0.996491
+            inSlope: -0.57815
+            outSlope: -0.57815
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.3666668
+          - serializedVersion: 3
+            time: 0.70172405
+            value: -0.0052631567
+            inSlope: -0.19484878
+            outSlope: -0.19484878
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.270115
+          - serializedVersion: 3
+            time: 1.001724
+            value: 0.49298236
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 136
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+  - animationName: ZoomTo
+    eventProperties:
+    - animationTime: 0
+      soundEffect: {fileID: 8300000, guid: ac467de1b92dfa24fb45438c714ad5f4, type: 3}
+      shakeProperties:
+        target: 2
+        amplitude: 1
+        frequency: 1
+        duration: 0.5
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.0051724133
+            value: -0.0017543855
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 136
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.49482754
+            value: 0.996491
+            inSlope: -0.57815
+            outSlope: -0.57815
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.3666668
+          - serializedVersion: 3
+            time: 0.70172405
+            value: -0.0052631567
+            inSlope: -0.19484878
+            outSlope: -0.19484878
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.270115
+          - serializedVersion: 3
+            time: 1.001724
+            value: 0.49298236
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 136
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+  - animationName: ZoomFrom
+    eventProperties:
+    - animationTime: 0
+      soundEffect: {fileID: 8300000, guid: ac467de1b92dfa24fb45438c714ad5f4, type: 3}
+      shakeProperties:
+        target: 2
+        amplitude: 1
+        frequency: 1
+        duration: 0.5
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 136
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.5
+            value: 1
+            inSlope: -0.57815
+            outSlope: -0.57815
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.3666668
+          - serializedVersion: 3
+            time: 0.7
+            value: 0
+            inSlope: -0.19484878
+            outSlope: -0.19484878
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.270115
+          - serializedVersion: 3
+            time: 1
+            value: 0.5
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 136
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+  - animationName: Reload
+    eventProperties:
+    - animationTime: 0.13
+      soundEffect: {fileID: 8300000, guid: c771a50525491b549887e7f37db0023a, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 1.13
+      soundEffect: {fileID: 8300000, guid: cc61155d6406cd84da4ff4dae6928504, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 1.8
+      soundEffect: {fileID: 8300000, guid: 260c97136553818448e24ddbc1a73f57, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 2.16
+      soundEffect: {fileID: 8300000, guid: 6ff068ad44eaa6b41947140fda949d0d, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 3.13
+      soundEffect: {fileID: 8300000, guid: 56718c1fc875a8d42a3e103f24364ec7, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 3.4
+      soundEffect: {fileID: 8300000, guid: 402f03f68d424be4fb48e888b0094145, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 4.16
+      soundEffect: {fileID: 8300000, guid: 3e0abf39d37cd1f4b96fc2a7cf5d87b1, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 4.8
+      soundEffect: {fileID: 8300000, guid: c7baa6be49f03e4479c5705c8ed78211, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+  - animationName: EmptyReload
+    eventProperties:
+    - animationTime: 0.13
+      soundEffect: {fileID: 8300000, guid: c771a50525491b549887e7f37db0023a, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 1.13
+      soundEffect: {fileID: 8300000, guid: cc61155d6406cd84da4ff4dae6928504, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 1.8
+      soundEffect: {fileID: 8300000, guid: 260c97136553818448e24ddbc1a73f57, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 2.16
+      soundEffect: {fileID: 8300000, guid: 6ff068ad44eaa6b41947140fda949d0d, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 3.13
+      soundEffect: {fileID: 8300000, guid: 56718c1fc875a8d42a3e103f24364ec7, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 3.4
+      soundEffect: {fileID: 8300000, guid: 402f03f68d424be4fb48e888b0094145, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 4.16
+      soundEffect: {fileID: 8300000, guid: 3e0abf39d37cd1f4b96fc2a7cf5d87b1, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+    - animationTime: 4.8
+      soundEffect: {fileID: 8300000, guid: c7baa6be49f03e4479c5705c8ed78211, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0

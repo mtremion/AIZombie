@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c58bc73e0b89b74db7315357d0fdb19, type: 3}
+  m_Name: Shotgun Animation Event Properties
+  m_EditorClassIdentifier: 
+  properties:
+  - animationName: AlternateSelect
+    eventProperties:
+    - animationTime: 0.01
+      soundEffect: {fileID: 8300000, guid: a92d3ccc1ab68e24fb3c0b74fb4def1d, type: 3}
+      shakeProperties:
+        target: 2
+        amplitude: 1
+        frequency: 0.5
+        duration: 0.5
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.008602142
+            value: 0.5001831
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+  - animationName: Putaway
+    eventProperties:
+    - animationTime: 0
+      soundEffect: {fileID: 8300000, guid: d4c43cc4b7871ec41913aa50e475765b, type: 3}
+      shakeProperties:
+        target: 2
+        amplitude: 1
+        frequency: 0.5
+        duration: 0.5
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.008602142
+            value: 0.5001831
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+  - animationName: AlternateZoomTo
+    eventProperties:
+    - animationTime: 0
+      soundEffect: {fileID: 8300000, guid: ac467de1b92dfa24fb45438c714ad5f4, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 1
+        frequency: 0.5
+        duration: 0.5
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.008602142
+            value: 0.5001831
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+  - animationName: AlternateZoomFrom
+    eventProperties:
+    - animationTime: 0
+      soundEffect: {fileID: 8300000, guid: ac467de1b92dfa24fb45438c714ad5f4, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 1
+        frequency: 0.5
+        duration: 0.5
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.008602142
+            value: 0.5001831
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+  - animationName: AlternateStartReload
+    eventProperties:
+    - animationTime: 0.1
+      soundEffect: {fileID: 0}
+      shakeProperties:
+        target: 2
+        amplitude: 1
+        frequency: 0.5
+        duration: 0.5
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.0051724133
+            value: -0.0017543855
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 136
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.49482754
+            value: 0.996491
+            inSlope: -0.57815
+            outSlope: -0.57815
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.3666668
+          - serializedVersion: 3
+            time: 0.70172405
+            value: -0.0052631567
+            inSlope: -0.19484878
+            outSlope: -0.19484878
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.270115
+          - serializedVersion: 3
+            time: 1.001724
+            value: 0.49298236
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 136
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+  - animationName: AlternateReloadLoop
+    eventProperties:
+    - animationTime: 0.025
+      soundEffect: {fileID: 8300000, guid: a32da5028a457304fb362f2917e1b2cc, type: 3}
+      shakeProperties:
+        target: 2
+        amplitude: 1
+        frequency: 0.5
+        duration: 0.5
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.008602142
+            value: 0.5001831
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+  - animationName: AlternateEndReload
+    eventProperties:
+    - animationTime: 0.3
+      soundEffect: {fileID: 8300000, guid: 1be1f25bd89615246906bc7107158028, type: 3}
+      shakeProperties:
+        target: 2
+        amplitude: 1
+        frequency: 0.5
+        duration: 0.5
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.008602142
+            value: 0.5001831
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+  - animationName: AlternateFire
+    eventProperties:
+    - animationTime: 0.3
+      soundEffect: {fileID: 8300000, guid: 1be1f25bd89615246906bc7107158028, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
+  - animationName: AlternateZoomFire
+    eventProperties:
+    - animationTime: 0.11
+      soundEffect: {fileID: 8300000, guid: 1be1f25bd89615246906bc7107158028, type: 3}
+      shakeProperties:
+        target: 0
+        amplitude: 0
+        frequency: 0
+        duration: 0
+        blendOverLifetime:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 0
+          m_PostInfinity: 0
+          m_RotationOrder: 0
